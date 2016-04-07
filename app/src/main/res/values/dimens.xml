@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--ImageView Logo-->
+    <dimen name="iv_logo_size">192dp</dimen>
+    <dimen name="iv_logo_margin">84dp</dimen>
+
+    <!--Used the Background drawable für the button Add a Drop insite empty drops xml-->
+    <dimen name="btn_add_it_corner_radius_pruple">2dp</dimen>
+    <dimen name="btn_add_margin">24dp</dimen>
+    <dimen name="btn_add_vertical_padding">8dp</dimen>
+    <dimen name="btn_add_horizontal_padding">60dp</dimen>
+    <dimen name="btn_add_font_size">28sp</dimen>
+</resources>
