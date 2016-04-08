@@ -9,6 +9,12 @@
         android:id="@+id/toolbar"
         layout="@layout/toobar"/>
 
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_background"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <include
         layout="@layout/empty_drops"/>
 
