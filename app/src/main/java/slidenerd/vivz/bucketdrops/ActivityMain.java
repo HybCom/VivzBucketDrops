@@ -17,9 +17,14 @@ public class ActivityMain extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-
+            showDialogAdd();
         }
     };
+
+    private void showDialogAdd() {
+        DialogAdd dialogAdd = new DialogAdd();
+        dialogAdd.show(getSupportFragmentManager(), "Add");
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
