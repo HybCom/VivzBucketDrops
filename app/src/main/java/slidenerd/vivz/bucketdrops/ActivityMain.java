@@ -32,7 +32,7 @@ public class ActivityMain extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mBtnAdd = (Button) findViewById(R.id.btn_add);
-        //anonymous listende was created when the add-button was clicked
+        //anonymous Listener was created when the add-button was clicked
         mBtnAdd.setOnClickListener(mBtnAddListener);
         setSupportActionBar(mToolbar);
         initBackgroundImage();
